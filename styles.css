@@ -1,0 +1,68 @@
+h1{
+    color: goldenrod;
+    size: 50;
+    
+}
+
+h2{
+    color: #02389b;
+}
+
+body{
+    background-color: #9f9fb3;
+}
+ 
+button{
+    color:rgba(128, 128, 128, 0.801);
+    background-color: indigo;
+
+}
+
+label{
+    width: 100%;
+}
+
+
+
+.header{
+    margin: 40 px 20px 20px;
+    width: 100%;
+}
+
+
+.header {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 45px;
+    
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  .header > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
+  }
+  
+  .logo {
+    width: 15%;
+  }
+  
+  .navbar {
+    width: 70%;
+    text-align: center;
+    color: green;
+  }
+  
+  .actions {
+    width: 15%;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+  }
