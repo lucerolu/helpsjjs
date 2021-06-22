@@ -9,7 +9,7 @@ h2{
 }
 
 body{
-    background-color: #d8baba;
+    background-color: #ffffff;
     font-family: 'Times New Roman', Times, serif;
     padding-top: 0;
 }
@@ -105,5 +105,37 @@ nav{
   display: inline-block;
 }
 
-
+.texto h3{
+  color: #025157;
   
+}
+  
+.texto p{
+  color: #343434;
+  
+}
+
+.promo{
+  display: flex;
+  width: 70%;
+  margin: 100px auto;
+  align-items: center;
+  
+}
+
+.exp video{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.exp video img{
+  width: 120px;
+  margin-top: 10px;
+  flex-direction: column;
+}
+
+.texto{
+  margin-left: 30px;
+  margin-bottom: 30px;
+  margin-top: 0%;
+}
