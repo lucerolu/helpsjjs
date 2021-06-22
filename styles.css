@@ -9,25 +9,22 @@ h2{
 }
 
 body{
-    background-color: #d8baba;
+    background-color: #b8a96f; 
     font-family: 'Times New Roman', Times, serif;
     padding-top: 0;
 }
  
 button{
-    color:rgba(128, 128, 128, 0.801);
-    background-color: #dd8eec;
-
+    color:rgba(255, 255, 255, 0.801);
+    background-color: #ff9900;
+    font-size: 15px;
 }
 
 label{
     width: 100%;
 }
-.navbar {
-  width: 70%;
-  text-align: center;
-  color: green;
-}
+
+
 nav{
     width: 75%;
     vertical-align: middle;
@@ -35,46 +32,48 @@ nav{
     background-color: rgb(8, 27, 46);
     padding: 0;
     list-style: none;
-    margin-top: 0;
+   
 }
 
 .header{
-    margin:  0px 0px 0px;
-    width: 100%;
-    display: fixed;
+  width: 100%;
+  display: fixed;
 }
 
 
 .header {
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    line-height: 0px;
-    
-  }
   
-  li {
-    display: inline;
-  }
+  line-height: 0px;
   
-  .header > * {
-    display: inline-block;
-    font-size: 16px;
-    vertical-align: middle;
-    height: 100%;
-    line-height: 45px;
-   
-  }
+}
+
+li{
+  display: inline;
+ 
+}
+
+.header > * {
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: middle;
+  height: 100%;
+  line-height: 45px;
   
+}
+
+
   .logo {
-    padding-left: 0;
+    padding-left: 15px;
+    padding-top: 15px;
+    
   }
   
   .actions {
     width: 15%;
     text-align: right;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 600;
+   
   }
 
   .menu li a{
@@ -85,12 +84,13 @@ nav{
     padding-top: 0;
     padding-bottom: 0;
     text-decoration: none;
+    font-size: 20px;
     
   }
 
   .menu li{
     display: inline-block;
-    text-align: justify;
+    text-align: center;
 
   }
 
@@ -99,11 +99,25 @@ nav{
     color: rgb(80, 70, 70);
   }
 
-
 .header{
-  background-color: rgb(8, 27, 46);
-  display: inline-block;
+    background-color: rgb(8, 27, 46);
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
+    display:fixed;
+   
+  }
+  
+.con{
+  flex-direction: row;
+  justify-content: center;
 }
 
-
-  
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
