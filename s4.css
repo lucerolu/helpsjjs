@@ -1,0 +1,29 @@
+/*
+.container{
+    display: flex;
+    width: 400px;
+    /*flex-wrap: wrap;
+    flex-wrap: nowrap;*/
+    /*flex-direction: column;
+    flex-direction: row;
+    height: 400px;
+    background-color: teal;
+
+}
+
+.container > .item{
+    background-color: violet;
+    width: 50%;
+    height: 50px;
+}*/
+
+.main{
+    display: flex;
+    width: 500px;
+
+}
+
+.item-1 {flex-basis: 100px ; flex-grow: 1;}
+.item-2 {flex-basis: 100px ; flex-grow: 2;}
+.item-3 {flex-basis: 100px ; flex-grow: 1;}
+.item-4 {flex-basis: 100px ; flex-grow: 1;}
