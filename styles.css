@@ -1,11 +1,10 @@
-h1{
-    color: goldenrod;
-    size: 50;
-    
+.carousel-inner img{
+  height: 650px;
 }
-
-h2{
-    color: #02389b;
+.carrousel-inner{
+  height: 650px;
+  position: none;
+  position: relative;
 }
 
 .sign a{
@@ -15,9 +14,9 @@ h2{
 
 body{
     background-color: #ffffff;
-    background-color: #b8a96f; 
+    background-color: #c7bdbd; 
     font-family: 'Times New Roman', Times, serif;
-    padding-top: 0;
+    padding-top: 50px;
 }
  
 button{
@@ -32,15 +31,15 @@ label{
 }
 
 
-nav{
-    width: 75%;
+/* nav{
+    width: 70%;
     vertical-align: middle;
-    color:rgb(255, 255, 255);
-    background-color: rgb(8, 27, 46);
+    color:rgb(31, 27, 27);
+    background-color: rgb(240, 241, 243);
     padding: 0;
     list-style: none;
    
-}
+} */
 
 .header{
   width: 100%;
@@ -83,7 +82,7 @@ li{
    
   }
 
-  .menu li a{
+  /* .navbar li a{
     color: #ffff;
     padding-left: 60px;
     padding-right: 60px;
@@ -95,16 +94,16 @@ li{
     
   }
 
-  .menu li{
+  .navbar li{
     display: inline-block;
     text-align: center;
 
   }
 
-  .menu li a:hover{
+  .navbar li a:hover{
     background-color: #ff783d;
     color: rgb(80, 70, 70);
-  }
+  } */
 
 .header{
     background-color: rgb(8, 27, 46);
@@ -266,16 +265,14 @@ li{
   /*grid-template-columns: 500px 1fr;*/
   /*grid-template-columns: 1fr 1fr;*/
   grid-template-columns: repeat(2, 1fr);
-  height: 500px;
-  grid-template-rows: repeat(2, 330px);
-  padding: 5% 10%;
+  height: 900px;
+  grid-template-rows: repeat(2, 400px);
+  padding: 5% 5%;
   background-color: #025157;
-  grid-template: repeat(2, 330px) / repeat(2, 1fr);
+  grid-template: repeat(2, 400px) / repeat(2, 1fr);
 }
 
-.feature-art{
-  
-}
+
 
 .contenido{
   margin-bottom: 30px;
@@ -290,13 +287,19 @@ li{
 }
 
 .texto{
+  margin-top: 30px;
+  margin-left: 20px;
+  
   padding: 30px 20px 40px 40px;
   flex: 2;
+  
 }
 
 .texto > *{
   margin-bottom: 1rem;
-  margin-top: 0;
+  margin-top: 10px;
+ 
+  
 }
 
 .texto img{
@@ -320,11 +323,13 @@ li{
   color: #67b54b;
   font-weight: 600;
   text-decoration: none;
+  width:500px;
 }
 
 .feature-img{
   flex: 1;
-  width: 40%;
+  width: 30%;
+  
   position: relative;
   right: -50px;
   height: 80%;
@@ -334,4 +339,124 @@ li{
 .features .contenido .feature-image img {
   margin-top: 0;
   height: 100%;
+}
+
+.feature-image img{
+  width:250px;
+  padding-left: 30%;
+}
+
+.lolol{
+  background-color: rgb(231, 235, 179);
+  display: grid;
+  width: 100%;
+  margin: auto;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  grid-template-rows: repeat(1,auto);
+}
+
+.wok{
+  grid-column-start: 1;
+  grid-column-end: -1;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.little img{
+  width: 30px;
+}
+
+.big img{
+  width: 70px;
+}
+
+/* .promote{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: 100px;
+  background-color: white;
+}
+
+.measure{
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 100%;
+} */
+
+/** dispositivos móviles en vista viewport (vertical) */
+/* @media (max-width: 575px) {
+  body{
+    background-color: #4daa22;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 0;
+   }
+  .menu{
+    display: none;
+    
+  }
+  h1 {
+    font-size: 30px;
+    margin-top: 100px;
+  }
+  .header{
+    display: inline-flex;
+  }
+  .publi > form {
+    flex-direction: column;
+  }
+
+  .publi > form > div {
+    height: 60px;
+    margin-top: 10px;
+  }
+
+  .publi > form > div > input {
+    width: 100%;
+  }
+  .promo{
+    flex-direction: column;
+    max-width: 80%;
+  }
+  .exp>video{
+    width: 100%;
+  }
+  .features {
+    grid-template: repeat(4, 1fr) / 1fr;
+    padding-left: 0;
+    padding-right: 0;
+
+  }
+  
+  .feature-image {
+    display: none;
+  }
+  .texto figure img{
+   padding: 15px;
+  }
+}
+   */
+
+
+
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) {
+  
+}
+
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) {
+  
 }
