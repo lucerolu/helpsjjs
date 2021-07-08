@@ -71,3 +71,17 @@
   
 
 }
+
+@media (max-width:575px){
+  .blog {
+    .row {
+      display: left;
+    .col {
+      float:left;
+      width: 90%;
+      padding: 5% 0%;
+    }
+    }
+    
+  }
+}

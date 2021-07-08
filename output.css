@@ -59,5 +59,19 @@
   display: flex;
   align-items: center;
 }
+.blog .author p {
+  padding-top: 20%;
+}
+
+@media (max-width: 575px) {
+  .blog .row {
+    display: left;
+  }
+  .blog .row .col {
+    float: left;
+    width: 90%;
+    padding: 5% 0%;
+  }
+}
 
 /*# sourceMappingURL=output.css.map */
